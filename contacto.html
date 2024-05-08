@@ -9,6 +9,7 @@
 </head>
 <body>
     <header>
+
     <div class="caja">
         <div>
         <h1><img src="img/imagenTaza.png" class="imagenTaza"></h1>
@@ -21,29 +22,51 @@
         </ul>
     </nav>
 </div>
- </header >
- <main>
-        <form>
-            <label for="nombreapellido">Nombre y Apellido</label>
-            <input type="text" id="nombreapellido">
+</header >
+<main>
+    <form>
+        <label for ="nombreapellido">Nombre-apellido</label>
+        <input type ="text" id ="nombreapellido" class ="input-padron">
+
+        <label for ="correoelectronico">Correo-electrónico</label>
+        <input type="text" id="correoelectronico" class="input-padron">
+
+        <label for="telefono">Teléfono</label>
+        <input type="text" id="telefono" class="input-padron">
+
+        <label for="mensaje">Mensaje</label>
+        <textarea cols="70" rows="10"id="mensaje" class="input-padron"></textarea>
+        <div>
+        <p>¿Como le gustaría que lo contactemos?</p>
+        
+        <label for="radio-email"><input type="radio"name="contacto" 
+        value="email" id="radio-email">Email<label>
+        
+        <label for="radio-telefono"><input type="radio"name="contacto" 
+        value="telefono" id="radio-telefono">Teléfono</label>
+        
+        <label for="radio-whatsapp"><input type="radio"name="contacto" 
+        value="whatsapp" id="radio-whatsapp">Whatsapp</label>
+        </div>
+        <label class="checkbox"><input type="checkbox">¿Le gustaría recibir novedades de la Cafeteía 9/6</label>
+
+
+        <input  type="submit" value="Enviar formulario">
+
     
-              <label for="correoelectronico">Correo Electrónico</label>
-             <input type="text" id="correoelectronico">
-    
-            <label for="telefono">Telefono</label>
-            <input type="text" id="telefono">
-    
-            <input type="submit" value="Enviar formulario">
-        </form>
-    </main>
-    <footer>
- <img src="img/Logo.png" >
- <p class="copyright">&copy Copyright Cafeteria 9/6-2024</p>
+    </form>
+</main>
+<footer>
+    <img src="img/Logo.png">
+    <p class="copyright">&copy Copyright Cafetería 9/6-2024</p>
+
 
 </footer>
+</body>
+</html>
  
 
 
-</body>
 
-</html>
+
+   
